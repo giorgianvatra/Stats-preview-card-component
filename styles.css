@@ -1,16 +1,4 @@
-/* 
-### Primary
 
-- Very dark blue (main background): hsl(233, 47%, 7%)
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
-
-### Neutral
-
-- White (main heading, stats): hsl(0, 0%, 100%)
-- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
-*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@200;400&display=swap');
 
 *{ 
@@ -42,7 +30,7 @@ body{
     .banner{ 
         max-width: 350px;
         height: 200px;
-        background-image: url(/images/image-header-mobile.jpg);
+        background-image: url(image-header-mobile.jpg);
         background-color: hsl(277, 40%, 39%);
         background-blend-mode:overlay;
         background-size: cover;
@@ -86,7 +74,7 @@ body{
     .banner{ 
         max-width: 520px;
         height: 100%;
-        background-image: url(/images/image-header-desktop.jpg);
+        background-image: url(image-header-desktop.jpg);
         background-color: hsl(277, 40%, 39%);
         background-blend-mode:overlay;
         background-size: cover;
